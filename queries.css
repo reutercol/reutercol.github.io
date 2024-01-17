@@ -1,0 +1,40 @@
+/* Big tablets to 1200px: width smaller than the 1140px row */
+/*@media only screen and (max-width: 1200px)
+{
+    
+}*/
+
+/* Small tablets to big tablets: from 768px to 1023px */
+@media only screen and (max-width: 1023px)
+{    
+    html { font-size: 18px; }
+    
+    .btn:link,
+    .btn:visited { font-size: 17px; }
+}
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 750px)
+{
+    #Left-Side { width: 100%; height: 50%; }
+    
+    #Right-Side
+    {
+        width: 100%;
+        height: 50%;
+        bottom: 0;
+        text-align: center;
+    }
+    
+    #profile-image { width: 25%; }
+    
+    #header1 { font-size: 10vw; }
+
+    #header2 { font-size: 16vw; }
+}
+
+/* Small phones: from 0 to 480px */
+/*@media only screen and (max-width: 480px)
+{
+    
+}*/

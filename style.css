@@ -1,0 +1,154 @@
+/* ------------------------------------------ */
+/* BASIC SETUP */
+/* ------------------------------------------ */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html,
+body
+{
+    height: 100%;
+    width: 100%;
+}
+
+html
+{
+    background-color: #eee;
+    color: #414141;
+    font-family: "Arial";
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    text-align: justify;
+    overflow: auto;
+}
+
+/* ------------------------------------------ */
+/* Left and Right Side */
+/* ------------------------------------------ */
+
+#Left-Side
+{
+    width: 70%;
+    height: 100%;=
+}
+
+#Right-Side
+{
+    position: absolute;
+    right: 0;
+    width: 30%;
+    height: 100%;
+    padding: 0px 5px;
+}
+
+#profile { animation-delay: 1.8s; }
+
+#profile-image
+{
+    position: relative;
+    width: 100%;
+    border-radius: 50%;
+    animation-delay: 1.4s;
+}
+
+#profile-desc
+{
+    margin-left: 3vw;
+    line-height: 30px;
+    animation-delay: 1.8s;
+}
+
+#profile-contact
+{
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+/* ------------------------------------------ */
+/* HEADER */
+/* ------------------------------------------ */
+
+header
+{
+    height: 100%;
+    position: relative;
+}
+
+.header-text
+{
+    position: absolute;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
+#header1
+{
+    font-family: "courier";
+    font-size: 7vw;
+    margin-left: 3vw;
+}
+
+#header2
+{
+    font-size: 13vw;
+    margin-left: 2vw;
+    font-weight: bolder;
+    animation-delay: 1.4s;
+}
+
+/* ---- BUTTONS ---- */
+
+.btn-box
+{
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:link,
+.btn:visited
+{
+    font-size: 20px;
+    display: inline-block;
+    padding: 7px 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    border: 5px solid #3bacce;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 2px 2px 10px grey;
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color: #3bacce;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited
+{
+    color: #3bacce;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active
+{
+    color: #fff;
+    background-color: #3a819a;
+    border: 5px solid #3a819a;
+}
+
+.btn-full:hover,
+.btn-full:active
+{
+    background-color: #3a819a;
+    border: 5px solid #3a819a;
+}

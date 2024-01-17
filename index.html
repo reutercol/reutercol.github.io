@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>        
+        <meta charset="UTF-8">
+        <meta name="description" content="Hello World, Meet Cole | Personal Webpage">
+        <meta name="keywords" content="Cole Reuter">
+        <meta name="author" content="Cole Reuter">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Favicon -->
+        
+        <link rel="apple-touch-icon" sizes="180x180" href="Favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="Favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="Favicon/favicon-16x16.png">
+        <link rel="manifest" href="Favicon/site.webmanifest">
+        <link rel="mask-icon" href="Favicon/safari-pinned-tab.svg" color="#464653">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="theme-color" content="#ffffff">
+        
+        <!-- Open Graph (Facebook) -->
+        <meta property="og:url" content="https://www.colereuter.com">
+        <meta property="og:title" content="Cole Reuter">
+        <meta property="og:type" content="website">
+        <meta property="og:description" content="Hello World, Meet Cole | Personal Webpage">
+        <meta property="og:image" content="https://www.colereuter.com/Images/IMG_0334.jpg">
+
+        <!-- Style Sheets -->
+        <link rel="stylesheet" type="text/css" href="animate.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="queries.css">
+        <title>Cole Reuter</title>
+        <meta name="description" content="Hi, I'm Cole! I’ve graduated from the University of Wisconsin - Platteville with a Bachelor of Science in Computer Science degree and a Business Administration minor.">
+    </head>
+    <body onload="reload()">
+    
+        <!-- RIGHT SIDE -->
+        <div id="Right-Side">
+            <header>
+                <div class="header-text">
+                    <img id="profile-image" src="Images/profile-pic.jpg" class="animated fadeIn">
+                    <div id="profile" class="animated fadeIn">
+                        <div id="profile-contact">
+                            <div class="btn-box">
+                                <a class="btn btn-full" href="mailto:reuter_cole@yahoo.com">Say Hello!</a>
+                                <a class="btn btn-ghost" href="https://www.linkedin.com/in/cole-reuter-4a9a29160/" target=_blank title="LinkedIn">LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        
+        <!-- LEFT SIDE -->
+        <div id="Left-Side">
+            <header>
+                <div class="header-text">
+                    <div id="header1"></div>
+                    <div id="header2" class="animated fadeIn">Meet Cole.</div>
+                    <div id="profile-desc" class="animated fadeIn">Thinker. Developer. Programmer.</div>
+                </div>
+            </header>
+            
+        </div>
+        
+        <!-- Javascript -->
+        <script>
+            function reload()
+            {
+                titleTypeWriter();
+            }
+            
+            var i = 0;
+            var txt = "Hello World,";
+            var speed = 80;
+
+            function titleTypeWriter()
+            {
+                  if (i < txt.length)
+                  {
+                        document.getElementById("header1").innerHTML += txt.charAt(i);
+                        i++;
+                        setTimeout(titleTypeWriter, speed);
+                  }
+            }
+        </script>
+    </body>
+</html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
