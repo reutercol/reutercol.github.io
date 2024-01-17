@@ -47,8 +47,6 @@ html
     padding: 0px 5px;
 }
 
-#profile { animation-delay: 1.8s; }
-
 #profile-image
 {
     position: relative;
@@ -68,6 +66,7 @@ html
 {
     margin-top: 20px;
     font-size: 40px;
+    animation-delay: 1.8s;
 }
 
 /* ------------------------------------------ */
